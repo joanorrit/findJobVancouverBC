@@ -1,5 +1,6 @@
 <?php
 // src/AppBundle/Controller/LuckyController.php
+// prova GitHub
 namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
