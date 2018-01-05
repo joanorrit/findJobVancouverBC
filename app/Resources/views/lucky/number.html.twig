@@ -1,7 +1,8 @@
-<body> 
-{# app/Resources/views/number.html.twig #}
+{% extends 'base.html.twig' %}
+{% block title %}Aquí va el title de la pàgina number{% endblock %}
+{% block body %}
+	<h1>Your lucky number is {{ number }}</h1>
+{% endblock %}
 
-<h1>Your lucky number is {{ number }}</h1>
 
-</body>
-
+	
