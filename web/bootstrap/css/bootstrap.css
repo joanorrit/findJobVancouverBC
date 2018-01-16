@@ -239,7 +239,7 @@ th {
     page-break-after: avoid;
   }
   .navbar {
-    
+    display: none;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -4589,7 +4589,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #777;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
