@@ -32,6 +32,11 @@ class JobWebsite
     {
         return $this->websiteName;
     }
+
+    public function setWebsiteName($websiteName)
+    {
+        $this->websiteName = $websiteName;
+    }
 }
 
 ?>

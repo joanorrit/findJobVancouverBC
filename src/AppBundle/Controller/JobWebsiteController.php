@@ -7,10 +7,10 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Doctrine\ORM\EntityManager;
 
-class BestWebsitesController extends Controller
+class JobWebsiteController extends Controller
 {
 	/**
-	 * @Route("/find/job/best/websites")
+	 * @Route("/find_a_job_bc/best_websites", name="best_webistes")
 	 */
 	public function showBestWebsites()
 	{
