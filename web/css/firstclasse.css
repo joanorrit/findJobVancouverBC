@@ -1,5 +1,5 @@
 .prova {
-	margin-bottom: 5%;
+	margin-bottom: 3%;
  }
 
  .prova1 {
@@ -13,6 +13,42 @@
  .prova3 {
  	margin-top: 0%;
  	background-color: #777;
+ }
+
+ .bg-image-home {
+ 	background-image: url("../vancouver_backgorund.jpg");
+ }
+
+ .bg-color-gray {
+ 	background-color: #ddd;
+ }
+
+ .bg-color-red {
+ 	background-color: #ff3b3f;
+ }
+
+ .bg-color-blue {
+ 	background-color: #caebf2;
+ }
+
+ .bg-color-neutral {
+ 	background-color: #efefef;
+ }
+
+ .pd-bottom-section {
+ 	padding-bottom: 5%;
+ }
+
+ .pd-bottom-home {
+ 	padding-bottom: 30%;
+ }
+
+ .pd-bottom-top {
+ 	padding-top: 5%;
+ }
+
+ .pd-1-bottom {
+ 	padding-bottom: 3%;
  }
  
 a:hover{background-color: red; }
