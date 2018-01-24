@@ -1,5 +1,5 @@
 .prova {
-	margin-bottom: 3%;
+	vertical-align: middle;
  }
 
  .prova1 {
@@ -50,6 +50,27 @@
  .pd-1-bottom {
  	padding-bottom: 3%;
  }
+
+ .mg-1-bottom {
+ 	margin-bottom: 6%;
+ }
+
+ .mg-1-top {
+ 	margin-top: 14%;
+ }
+
+  .mg-5-top {
+ 	margin-top: 7%;
+ }
+
+ .mg-4-top {
+ 	margin-top: 5%;
+ }
+
+.centerImage {
+text-align: center;
+display: block;
+}
  
 a:hover{background-color: red; }
 

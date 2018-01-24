@@ -2,7 +2,7 @@
 
 
 {% block body %}
-
+<div class="container mg-4-top">
     <div class="col-md-9">
 		{% for jobWebsite in jobWebsites %}
 			<h1 >{{ jobWebsite.websiteName | capitalize}}</h1>
@@ -11,7 +11,6 @@
 			</p>
 		{% endfor %}
 	</div>
-
 </div>
 
 {% endblock %}
