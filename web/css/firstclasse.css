@@ -72,11 +72,11 @@ text-align: center;
 display: block;
 }
  
-a:hover{background-color: red; }
+/*a:hover{background-color: red; }
 
 a {
     color: white;
-}
+}*/
 
 body {
 	padding:0;
