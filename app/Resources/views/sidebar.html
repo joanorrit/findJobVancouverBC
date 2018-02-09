@@ -1,55 +1,57 @@
-    <div class="row">
-        <div class="prova col-md-12">
-            <nav class="navbar-fixed-top navbar-inverse"> 
-                <div class="container-fluid"> 
-                    <div class="navbar-header"> 
-                        <button type="button" class= "collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false"> 
-                            <span class="sr-only">Toggle navigation</span> 
-                            <span class="icon-bar"></span> <span class="icon-bar"></span> 
-                            <span class="icon-bar"></span> 
-                        </button> 
-                            <a href={{ path('home') }} class="navbar-brand">Home</a> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar-fixed-top navbar-inverse"> 
+                    <div class="container-fluid"> 
+                        <div class="navbar-header"> 
+                            <button type="button" class= "collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false"> 
+                                <span class="sr-only">Toggle navigation</span> 
+                                <span class="icon-bar"></span> <span class="icon-bar"></span> 
+                                <span class="icon-bar"></span> 
+                            </button> 
+                                <a href={{ path('home') }} class="navbar-brand">Home</a> 
+                        </div> 
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9"> 
+                            <ul class="nav navbar-nav"> 
+                                <li class=
+                                    {% if path(app.request.attributes.get('_route'),
+                           app.request.attributes.get('_route_params')) == '/find_a_job_bc/best_websites' %} 
+                                        {{ "active" }} 
+                                    {% endif %}
+                                >
+                                    <a href={{ path('best_webistes') }}>Job Posting Websites</a>
+                                </li> 
+
+                                <li class=
+                                    {% if path(app.request.attributes.get('_route'),
+                           app.request.attributes.get('_route_params')) == '/find_a_job_bc/networking' %} 
+                                        {{ "active" }} 
+                                    {% endif %}
+                                >
+                                    <a href={{ path('networking') }}>Networking</a>
+                                </li>
+
+                                <li class=
+                                    {% if path(app.request.attributes.get('_route'),
+                           app.request.attributes.get('_route_params')) == '/find_a_job_bc/interview' %} 
+                                        {{ "active" }} 
+                                    {% endif %}
+                                >
+                                    <a href={{ path('interview') }}>Vancouver Interview</a>
+                                </li>
+
+                                <li class=
+                                    {% if path(app.request.attributes.get('_route'),
+                           app.request.attributes.get('_route_params')) == '/find_a_job_bc/resume' %} 
+                                        {{ "active" }} 
+                                    {% endif %}
+                                >
+                                    <a href={{ path('resume') }}>Resume</a>
+                                </li>  
+                            </ul> 
+                        </div> 
                     </div> 
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9"> 
-                        <ul class="nav navbar-nav"> 
-                            <li class=
-                                {% if path(app.request.attributes.get('_route'),
-                       app.request.attributes.get('_route_params')) == '/find_a_job_bc/best_websites' %} 
-                                    {{ "active" }} 
-                                {% endif %}
-                            >
-                                <a href={{ path('best_webistes') }}>Job Posting Websites</a>
-                            </li> 
-
-                            <li class=
-                                {% if path(app.request.attributes.get('_route'),
-                       app.request.attributes.get('_route_params')) == '/find_a_job_bc/networking' %} 
-                                    {{ "active" }} 
-                                {% endif %}
-                            >
-                                <a href={{ path('networking') }}>Networking</a>
-                            </li>
-
-                            <li class=
-                                {% if path(app.request.attributes.get('_route'),
-                       app.request.attributes.get('_route_params')) == '/find_a_job_bc/interview' %} 
-                                    {{ "active" }} 
-                                {% endif %}
-                            >
-                                <a href={{ path('interview') }}>Vancouver Interview</a>
-                            </li>
-
-                            <li class=
-                                {% if path(app.request.attributes.get('_route'),
-                       app.request.attributes.get('_route_params')) == '/find_a_job_bc/resume' %} 
-                                    {{ "active" }} 
-                                {% endif %}
-                            >
-                                <a href={{ path('resume') }}>Resume</a>
-                            </li>  
-                        </ul> 
-                    </div> 
-                </div> 
-            </nav>
+                </nav>
+            </div>
         </div>
     </div>
