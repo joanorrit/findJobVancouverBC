@@ -10,7 +10,7 @@ use Doctrine\ORM\EntityManager;
 class HomeController extends Controller
 {
 	/**
-	 * @Route("/home", name="home")
+	 * @Route("/", name="home")
 	 */
 	public function showHomeQuestions()
 	{

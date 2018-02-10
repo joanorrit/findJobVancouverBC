@@ -15,6 +15,10 @@
  	background-color: #777;
  }
 
+ .footer-color {
+ 	background-color: #292929;	
+ }
+
  .bg-image-home {
  	background-image: url("../vancouver_backgorund.jpg");
  }
@@ -76,11 +80,19 @@ text-align: center;
 display: block;
 }
  
-/*a:hover{background-color: red; }
+/*a:hover{background-color: red; }*/
 
-a {
-    color: white;
-}*/
+a.footer:hover{
+    color: #C9C9C9;
+}
+
+a.footer{
+	color: #C9C9C9;
+}
+
+.footer {
+	color: white;
+}
 
 body {
 	padding:0;
