@@ -21,6 +21,8 @@
 
  .bg-image-home {
  	background-image: url("../vancouver_backgorund.jpg");
+ 	background-repeat: no-repeat;
+    background-size: 1920px 1280px;
  }
 
  .bg-color-gray {
@@ -55,8 +57,24 @@
  	padding-top: 7%;
  }
 
+ .pd-right {
+ 	padding-right: 20%
+ }
+
+ .mg.right {
+ 	margin-right: 20%;
+ }
+
  .pd-1-bottom {
  	padding-bottom: 3%;
+ }
+
+ .mg-bottom {
+ 	margin-bottom: 5%;
+ }
+
+ .mg-top {
+ 	margin-top: 5%;
  }
 
  .mg-1-bottom {
@@ -73,6 +91,10 @@
 
  .mg-4-top {
  	margin-top: 5%;
+ }
+
+ .ico-prova {
+ 	color: #1E90FF;
  }
 
 .centerImage {
