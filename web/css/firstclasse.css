@@ -50,6 +50,10 @@
  	padding-bottom: 10%;
  }
 
+ .pd-bottom {
+ 	padding-bottom: 10%;
+ }
+
  .pd-bottom-top {
  	padding-top: 5%;
  }
@@ -106,6 +110,10 @@
 text-align: center;
 display: block;
 }
+
+.bd-bottom {
+	border-bottom: 10%;
+}
  
 /*a:hover{background-color: red; }*/
 
@@ -119,6 +127,14 @@ a.footer{
 
 .footer {
 	color: white;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	padding-left:0;
+	margin-left:0;
 }
 
 body {
